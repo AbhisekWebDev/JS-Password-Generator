@@ -29,7 +29,7 @@ const generatePassword = () => {
     if (lowerInput.checked) {
         selectedCharacterSets.push(lowerCase);
     }
-    if (parseInt(numbersInput.value) > 0) {
+    if (numbersInput.checked) {
         selectedCharacterSets.push(number);
     }
     if (symbolsInput.checked) {
